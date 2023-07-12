@@ -1,7 +1,10 @@
+import { Words } from "../../Words";
 import "../../css/Header/Header.css"
 const Header = () => {
     return ( 
-        <header>shopping cart</header> 
+        <header>
+            {Words.headerTitle}
+        </header> 
      );
 }
  
