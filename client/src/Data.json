@@ -1,14 +1,14 @@
 [
     {
-        "id1": "img1",
+        "id": "img1",
         "title": "Product 1",
-        "imageUrl": "./images/glasses.jpg",
+        "imageUrl": "/images/glasses.jpg",
         "desc": "This is product 1",
         "price": 30,
         "sizes": ["S", "M"]
     },
     {
-        "id2": "img2",
+        "id": "img2",
         "title": "Product 2",
         "imageUrl": "./images/headphone.jpg",
         "desc": "This is product 2",
@@ -16,7 +16,7 @@
         "sizes": ["XL", "L"]
     },
     {
-        "id3": "img3",
+        "id": "img3",
         "title": "Product 3",
         "imageUrl": "./images/lab.jpg",
         "desc": "This is product 3",
@@ -24,7 +24,7 @@
         "sizes": ["S", "M"]
     },
     {
-        "id4": "img4",
+        "id": "img4",
         "title": "Product 4",
         "imageUrl": "./images/watch.jpg",
         "desc": "This is product 4",
