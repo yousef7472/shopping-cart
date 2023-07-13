@@ -13,7 +13,7 @@
         "imageUrl": "./images/headphone.jpg",
         "desc": "This is product 2",
         "price": 40,
-        "sizes": ["XL", "L"]
+        "sizes": ["XS", "L"]
     },
     {
         "id": "img3",
