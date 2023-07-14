@@ -20,15 +20,15 @@
         "title": "Product 3",
         "imageUrl": "./images/lab.jpg",
         "desc": "This is product 3",
-        "price": 300,
-        "sizes": ["S", "M"]
+        "price": 450,
+        "sizes": ["M", "S"]
     },
     {
         "id": "img4",
         "title": "Product 4",
         "imageUrl": "./images/watch.jpg",
         "desc": "This is product 4",
-        "price": 450,
-        "sizes": ["S", "L"]
+        "price": 300,
+        "sizes": ["L", "S"]
     }
 ]
