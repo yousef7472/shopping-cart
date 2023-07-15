@@ -2,9 +2,9 @@ import { Words } from "../../Words";
 import "./../../css/Footer/Footer.css"
 const Footer = () => {
     return ( 
-        <footer>
+        <div className="footer">
             {Words.footer}
-        </footer>
+        </div>
      );
 }
  
