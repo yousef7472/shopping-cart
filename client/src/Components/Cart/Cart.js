@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../../css/Cart/Cart.css"
 import Checkout from "../Checkout/Checkout";
+import { Bounce } from "react-reveal";
 const Cart = (props) => {
     const [showForm, setShowForm] = useState(false)
     const [value, setValue] = useState("")
@@ -23,6 +24,7 @@ const Cart = (props) => {
                  <p>There is {props.cartItems.length} Products in Cart</p>
                 }
             </h4>
+            <Bounce left cascade>
             <div className="cart-items">
                     {props.cartItems.map(item => (
                         <div key={item.id} className="cart-item">
@@ -53,6 +55,7 @@ const Cart = (props) => {
                 setShowForm={setShowForm}
                 handleChange={handleChange}
             />
+            </Bounce>
         </div>
      );
 }
