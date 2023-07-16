@@ -12,7 +12,7 @@
         box-shadow: 2px 2px 3px #bca7a7;
         margin: 6px 0;
         padding: 10px;
-        border-radius: 15px;
+        border-radius: 15px;}
         img {
             width: 80px;
             margin-right: 10px;
@@ -22,19 +22,7 @@
             align-items: center;
             flex: 1;
         }
-    }
     
-    button {
-        border: none;
-        display: inline-block;
-        cursor: pointer;
-        padding: 7px;
-        background-color: #2a5ea5;
-        color: #fff;
-        border-radius: 6px;
-    }
-    
-}
         button {
             border: none;
             display: inline-block;
@@ -43,6 +31,4 @@
             background-color: #2a5ea5;
             color: #fff;
             border-radius: 6px;
-        }
-    }
-}
+        }}

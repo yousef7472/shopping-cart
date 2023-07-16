@@ -15,18 +15,16 @@
   padding: 10px;
   border-radius: 15px;
 }
-.cart-wrapper .cart-item img {
+.cart-wrapper img {
   width: 80px;
   margin-right: 10px;
 }
-.cart-wrapper .cart-item .cart-info {
+.cart-wrapper .cart-info {
   justify-content: space-between;
   align-items: center;
   flex: 1;
 }
 .cart-wrapper button {
-=======
-.cart-wrapper .cart-item button {
   border: none;
   display: inline-block;
   cursor: pointer;
