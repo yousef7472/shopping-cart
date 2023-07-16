@@ -15,7 +15,6 @@
   grid-template-areas: "header" "main" "cart" "footer";
   grid-template-rows: 50px 1fr 50px;
 }
-
 .wrapper {
   display: flex;
   justify-content: space-around;

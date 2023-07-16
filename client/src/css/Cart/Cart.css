@@ -24,6 +24,8 @@
   align-items: center;
   flex: 1;
 }
+.cart-wrapper button {
+=======
 .cart-wrapper .cart-item button {
   border: none;
   display: inline-block;
