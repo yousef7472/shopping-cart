@@ -1,0 +1,22 @@
+.checkout-form {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+    background-color: #bca7a7;
+    form {
+        width: 60%;
+        margin: auto;
+        > div {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
+    input {
+        height: 40px;
+        margin: 10px 0
+
+    }
+}

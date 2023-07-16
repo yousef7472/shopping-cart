@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from "react";
 import "../../css/Products/Products.css"
 import ProductsModal from "./ProductsMoadal";
@@ -12,7 +13,7 @@ const Products = (props) => {
     }
     return ( 
         <div className="products-wrapper">
-            {props.products.map((product) => (
+            {props.products.map(product => (
                 <div key={product.id} className="product-item">
                     <a href="#" onClick={() => openModal(product)}>
                         <img src={product.imageUrl} alt={product.title} />
@@ -21,7 +22,7 @@ const Products = (props) => {
                             <span>$ {product.price}</span>
                         </div>
                     </a>
-                    <button>Add to cart</button>
+                    <button onClick={() => props.addToCart(product)}>Add to cart</button>
                 </div>
             ))}
             <ProductsModal product={product} closeModal={closeModal}/>
