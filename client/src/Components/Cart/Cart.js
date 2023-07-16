@@ -16,6 +16,8 @@ const Cart = (props) => {
     const handleChange = (e) => {
         setValue((prevState) => ({...prevState, [e.target.name] : e.target.value}))
     }
+import "../../css/Cart/Cart.css"
+const Cart = (props) => {
     return ( 
         <div className="cart-wrapper">
             <h4 className="cart-title">
@@ -53,7 +55,6 @@ const Cart = (props) => {
                 setShowForm={setShowForm}
                 handleChange={handleChange}
             />
-            
         </div>
      );
 }
